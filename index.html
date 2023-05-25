@@ -10,58 +10,73 @@
 </head>
 <body>
   <!-- 해더영역 -->
-  <header>
-    <img class="page-backbutton">
-    <img class="tipo-icon" src="#">
-    <div class="service-title">TiPo</div>
-    <img class="hambuger-menu" src="#">
+  <header class="header">
+    <div class="back-page-button"> < </div>
+    <div class="service-title">T.P</div>
+    <img class="hambuger-menu" src="img/nor.svg">
   </header>
 
-  <!-- 메인 영역 -->
-  <article>
-    <!-- 메인 타이틀, 날짜, 평점 -->
-    <div class="main-content">
-      <div class="main-date">2023. 04. 28</div>
-      <div class="main-title">뮤지컬 영웅 2023</div>
-      <img class="main-score" src="#">
-    </div>
-    <!-- 명언 -->
-    <div class="famous-line">"하늘이시여, 도와주소서, 우리 뜻 이루도록</div>
-  
-    <div class="review-section">
-      <!-- 같이 본 사람 -->
-      <div class="viewer-section">
-        <img class="viewer-icon" src="#">
-        <div class="viewer-name round-design">장종호</div>
-        <div class="viewer-name round-design">신희송</div>
+
+  <div class="wrapper">
+    <!-- 메인 영역 -->
+    <article class="article">
+      <!-- 메인 타이틀, 날짜, 평점 -->
+      <div class="main-content">
+        <h5 class="main-date">2023. 04. 28</h5>
+        <h1 class="main-title">뮤지컬 영웅 2023</h1>
+        <div class="socre-set">
+          <img class="main-score" src="img/star.svg">
+          <img class="main-score" src="img/star.svg">
+          <img class="main-score" src="img/star.svg">
+          <img class="main-score" src="img/star.svg">
+          <img class="main-score" src="img/star.svg">
+        <span class="score-number">5.0</span>
+        </div>
       </div>
-      <!-- 관람 날짜 -->
-      <div class="viewed-date-section">
-        <img class="viewed-icon" src="#">
-        <div class="viewed-date round-design">2023.04.28</div>
-        <img class="viewed-weather-icon" src="#">
-      </div>
-      <!-- 관람 장소 -->
-      <div class="place-section">
-        <img class="place-icon" src="#">
-        <div class="palce-name round-design">블루스퀘어 신한카드홀</div>
-      </div>
-      <!-- 좌석 -->
-      <div class="seat-section">
-        <img class="seat-icon" src="#">
-        <div class="seat-number round-design">VIP 1층 11열 022, 023번</div>
-      </div>
-      <!-- 내 리뷰 -->
+      <!-- 명언 -->
+      <h3 class="famous-line">"하늘이시여, 도와주소서, 우리 뜻 이루도록"</h3>
+    
+
+      <!-- 리뷰 전체 영역 -->
       <div class="review-section">
-        <img class="review-icon" src="#">
-        <div class="review-text round-design">한 인간으로서 안중근 의사가 거사를 치르기 전 느꼈을 죽음의 공포와 조국에 대한 그리움을 생각해볼 수 있었다. 특히 독립운동을 돕던 동료의 죽음과 희생에 ...</div>
-        <button class="read-more">더보기</button>
+        <!-- 같이 본 사람 -->
+        <div class="viewer-section">
+          <img class="viewer-icon" src="Img/icon.svg">
+          <div class="viewer-name round-design">장종호</div>
+          <div class="viewer-name round-design">신희송</div>
+        </div>
+        <!-- 관람 날짜 -->
+        <div class="viewed-date-section">
+          <img class="viewed-icon" src="Img/icon.svg">
+          <div class="viewed-date round-design">2023.04.28</div>
+          <img class="viewed-weather-icon" src="Img/icon.svg">
+        </div>
+        <!-- 관람 장소 -->
+        <div class="palce-seat-section">
+          <div class="place-section">
+            <img class="place-icon" src="Img/icon.svg">
+            <div class="palce-name round-design">블루스퀘어 신한카드홀</div>
+          </div>
+          <!-- 좌석 -->
+          <div class="seat-section">
+            <img class="seat-icon" src="Img/icon.svg">
+            <div class="seat-number round-design">VIP 1층 11열 022, 023번</div>
+          </div>
+        </div>
+        <!-- 내 리뷰 -->
+        <div class="my-review-section">
+          <img class="review-icon" src="Img/icon.svg">
+          <div class="review-text">한 인간으로서 안중근 의사가 거사를 치르기 전 느꼈을 죽음의 공포와 조국에 대한 그리움을 생각해볼 수 있었다. 특히 독립운동을 돕던 동료의 죽음과 희생에 ...</d>
+          <a class="read-more" href="#">더보기 ></a>
+        </div>
       </div>
-    </div>
-  </article>
-  <aside class="poster">
-    <img class="poster-main" src="#">
-    <a class="work-details" href="#">작품 정보 보기</a>
-  </aside>
+    </article>
+
+    <!-- 포스터 영역 -->
+    <aside class="side-poster">
+      <img class="poster-main" src="img/main-poster.jpg" alt="">
+      <a class="work-details" href="#">작품 정보 보기</a>
+    </aside>
+</div>
 </body>
 </html>
